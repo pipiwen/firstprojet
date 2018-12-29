@@ -39,6 +39,7 @@ public class TestAop {
            System.out.println(e);
        }
     }
+    //new
     @Test
     public void test4(){
         System.out.println(employeeDao.queryById(1));
